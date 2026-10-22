@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegación */
+nav {
+    background-color: #002244;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido Principal */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Tarjetas de carreras */
+.carrera {
+    border-left: 5px solid #003366;
+    background-color: #eef2f7;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002244;
+}
+
+/* Mensajes de validación */
+#mensaje {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #003366;
+    color: white;
+}

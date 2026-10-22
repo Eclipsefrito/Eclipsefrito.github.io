@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Técnico - Oferta Académica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Instituto Técnico Superior</h1>
+        <p>Formación profesional para tu futuro</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#carreras">Carreras</a>
+        <a href="#registro">Registro</a>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main>
+
+        <!-- Sección de Bienvenida -->
+        <section id="inicio">
+            <h2>Bienvenido a nuestra institución</h2>
+            <p>Ofrecemos carreras técnicas de alta demanda laboral con una formación práctica y moderna.</p>
+        </section>
+
+        <!-- Sección de Carreras -->
+        <section id="carreras">
+            <h2>Nuestras Carreras</h2>
+            <div class="carrera">
+                <h3>Ingeniería de Software</h3>
+                <p>Aprende los fundamentos de la programación y el diseño lógico para construir soluciones tecnológicas robustas. Adquiere habilidades especializadas en el desarrollo y mantenimiento de páginas web dinámicas, así como en la creación de aplicaciones móviles nativas e híbridas orientadas a optimizar la experiencia de los usuarios en diversas plataformas.</p>
+            </div>
+            <div class="carrera">
+                <h3>Redes y Seguridad</h3>
+                <p>Configura, administra y optimiza redes de computadoras e infraestructura tecnológica para garantizar una comunicación eficiente y continua. Implementa estrategias avanzadas de ciberseguridad para proteger la información digital confidencial de las organizaciones frente a amenazas, vulnerabilidades y accesos no autorizados.</p>
+            </div>
+            <div class="carrera">
+                <h3>Diseño Gráfico Digital</h3>
+                <p>Crea identidades visuales memorables y el desarrollo integral de marcas corporativas. Produce contenido visual impactante, piezas publicitarias y proyectos multimedia creativos utilizando herramientas tecnológicas de vanguardia para comunicar con eficacia mensajes de alto valor estético y comercial.</p>
+            </div>
+        </section>
+
+        <!-- Sección de Formulario de Registro -->
+        <section id="registro">
+            <h2>Formulario de Inscripción</h2>
+            <form id="formRegistro">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre">
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" placeholder="ejemplo@correo.com">
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" placeholder="999999999">
+
+                <label for="carrera">Carrera de interés:</label>
+                <select id="carrera">
+                    <option value="">-- Selecciona una carrera --</option>
+                    <option value="software">Ingeniería de Software</option>
+                    <option value="redes">Redes y Seguridad</option>
+                    <option value="diseno">Diseño Gráfico Digital</option>
+                </select>
+
+                <button type="submit">Enviar Registro</button>
+            </form>
+
+            <!-- Mensaje de respuesta -->
+            <p id="mensaje"></p>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Instituto Técnico Superior - Esteban Carhuapoma. Derechos reservados.</p>
+    </footer>
+
+    <!-- Vinculación del script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
